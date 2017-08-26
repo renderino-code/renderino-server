@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/jasmine-node/bin/jasmine-node --verbose --color ."
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "apicache": "^0.10.0",
     "express": "^4.15.4",
     "puppeteer": "^0.9.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "portfinder": "^1.0.13",
+    "tcp-port-used": "^0.1.2"
   }
 }
